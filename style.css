@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0e0e10;
+  color: #f4f4f4;
+}
+
+header {
+  background: linear-gradient(135deg, #1e90ff, #00bfff);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #e8e8e8;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.account-card {
+  background: #1c1c1f;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.account-card:hover {
+  transform: scale(1.02);
+}
+
+.account-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.account-card h2 {
+  margin-top: 15px;
+}
+
+.account-card p {
+  color: #cfcfcf;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe57;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 1.8em;
+  color: #00bfff;
+}
+
+.testimoni,
+.links,
+.payment {
+  background: #1c1c1f;
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.testimoni p {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.links a {
+  display: block;
+  color: #1e90ff;
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.payment img {
+  width: 100px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+  background-color: #111;
+  margin-top: 40px;
+}
